@@ -8,8 +8,6 @@ def find_item_by_name_in_collection(name, collection)
   #now we are looking for this specific item in our collection. 
     if collection[counter][:item] == name
       return collection[counter]
-      
-      
     end
   counter += 1
   end
