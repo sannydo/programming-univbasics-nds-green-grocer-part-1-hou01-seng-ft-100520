@@ -14,6 +14,7 @@ def find_item_by_name_in_collection(name, collection)
   #nil -to ensure nil is return if item is not in the collection
 end
 
+#
 def consolidate_cart 
   
 end
