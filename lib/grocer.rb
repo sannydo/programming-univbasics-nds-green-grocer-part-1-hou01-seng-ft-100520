@@ -51,7 +51,7 @@ def consolidate_cart(cart)
         }
         #after the new_cart is built, we are going to shovel new_cart_item variable
         new_cart << new_cart_item
-        
+      end
     #to ensure there is not an infinite loop 
      counter += 1
   end
