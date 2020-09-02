@@ -32,5 +32,5 @@ def consolidate_cart(cart)
   end
 end
 
-#return [{:item => "name of item"}]
+#return [{:item => "name of item", :price => }]
 
