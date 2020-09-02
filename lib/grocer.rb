@@ -24,7 +24,7 @@ def consolidate_cart(cart)
   counter = 0 
   #then create while loop
   while counter < cart.length do 
-    
+    #take each item in the cart 
     #to ensure there is not an infinite loop 
     counter += 1
   end
