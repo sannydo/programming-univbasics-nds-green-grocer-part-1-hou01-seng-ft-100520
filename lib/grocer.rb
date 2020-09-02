@@ -24,7 +24,9 @@ def consolidate_cart(cart)
   counter = 0 
   #then create while loop
   while counter < cart.length do 
-    #take each item in the cart 
+    #take each item in the cart and see if it is already in the new cart
+    if cart[:item] = new_cart
+      
     #to ensure there is not an infinite loop 
     counter += 1
   end
