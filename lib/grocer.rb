@@ -14,7 +14,8 @@ def find_item_by_name_in_collection(name, collection)
   #nil -to ensure nil is return if item is not in the collection
 end
 
-#
+#adds a count of one to each item when there are no duplicates
+
 def consolidate_cart 
   
 end
