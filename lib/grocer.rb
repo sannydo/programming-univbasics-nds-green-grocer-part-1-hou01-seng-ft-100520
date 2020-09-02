@@ -21,7 +21,7 @@ end
 def consolidate_cart(cart)
   
   #declare new array
- new_array = []
+ new_cart = []
   
   #start with a counter so it begins at the first item
  counter = 0 
