@@ -30,7 +30,7 @@ def consolidate_cart(cart)
       #So this will return either the item found or if not found it will return nil
       new_cart_item = find_item_by_name_in_collection(cart[:counter][:item], new_cart)
       #if item is already in cart, we just want to increase the count
-      if new_cart_item
+      if new_cart_item != nil 
     #to ensure there is not an infinite loop 
      counter += 1
   end
