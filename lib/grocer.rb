@@ -40,7 +40,7 @@ def consolidate_cart(cart)
         #if new_cart_item does not equal nil then we want to access new_cart_item and inside we want to access the count and increase by 1
         new_cart_item[:counter] += 1
         
-        #otherwise, item is nil 
+        #otherwise, item is nil. We would need to create our item. 
       else
         
     #to ensure there is not an infinite loop 
