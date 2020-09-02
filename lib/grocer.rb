@@ -20,5 +20,12 @@ end
 def consolidate_cart 
   #declare new array
   new_array = []
+  #start with a counter so it begins at the first item
+  counter = 0 
+  #then create while loop
+  while 
   
+  end
 end
+
+
