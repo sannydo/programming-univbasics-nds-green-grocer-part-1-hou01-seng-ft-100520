@@ -49,7 +49,8 @@ def consolidate_cart(cart)
           #this is the first time count is being used, the old item did not have count
           :count => 1
         }
-        #after the new_cart is built, we are going to shovel 
+        #after the new_cart is built, we are going to shovel new_cart_item variable
+        new_cart << new_cart_item
         
     #to ensure there is not an infinite loop 
      counter += 1
