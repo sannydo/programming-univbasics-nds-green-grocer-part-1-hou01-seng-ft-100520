@@ -27,7 +27,7 @@ def consolidate_cart(cart)
     #take each item in the cart and see if it is already in the new cart
     if cart[:item] = new_cart
       #calling the find_item_by_name_in_collection to check if item is in the new cart
-      new_cart_item = find_item_by_name_in_collection
+      new_cart_item = find_item_by_name_in_collection(cart[:counter][:item])
     #to ensure there is not an infinite loop 
      counter += 1
   end
