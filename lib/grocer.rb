@@ -32,7 +32,7 @@ def consolidate_cart(cart)
       #if item is already in cart, we just want to increase the count
       if new_cart_item != nil 
         #if new_cart_item does not equal nil then we want to access new_cart_item and inside we want to access the count 
-        new_cart_item 
+        new_cart_item[:count]
     #to ensure there is not an infinite loop 
      counter += 1
   end
