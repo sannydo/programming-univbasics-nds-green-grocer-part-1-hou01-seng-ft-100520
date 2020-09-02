@@ -26,7 +26,7 @@ def consolidate_cart(cart)
   while counter < cart.length do 
     #take each item in the cart and see if it is already in the new cart
     if cart[:item] = new_cart
-      #calling the find_item_by_name_in_collection to check if item is in the new cart
+      #calling the find_item_by_name_in_collection to check if item is in the new cart. Second argument is the collection we want to search
       new_cart_item = find_item_by_name_in_collection(cart[:counter][:item])
     #to ensure there is not an infinite loop 
      counter += 1
