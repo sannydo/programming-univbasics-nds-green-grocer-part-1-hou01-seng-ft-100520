@@ -19,6 +19,6 @@ end
 #takes in an array and returns an array that every unique item and no duplicates. If there are dupes then the count will increase.
 def consolidate_cart 
   #declare new array
-  new_array = {}
+  new_array = []
   
 end
