@@ -1,17 +1,18 @@
+#find_item_by_name_in_collection return a nil
+#returns item in the collection
+
 def find_item_by_name_in_collection(name, collection)
-  # Implement me first!
-  #
-  # Consult README for inputs and outputs
-
+  counter = 0
+  while counter < collection.length #which it is 3
+  #collection[counter] #collection[0] then collection[1] then collection [2] then collection[3] which will end the loop
+  #now we are looking for this specific item in our collection. 
+    if collection[counter][:item] == name
+      return collection[counter]
+      
+      
+    end
+  counter += 1
+  end
 end
 
-def consolidate_cart(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This returns a new Array that represents the cart. Don't merely
-  # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-
-end
-
-
-  
+#consolidate_cart 
