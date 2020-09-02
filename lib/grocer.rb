@@ -31,8 +31,8 @@ def consolidate_cart(cart)
       new_cart_item = find_item_by_name_in_collection(cart[:counter][:item], new_cart)
       #if item is already in cart, we just want to increase the count
       if new_cart_item != nil 
-        #if new_cart_item does not equal nil then we want to access new_cart_item and inside we want to access the count 
-        new_cart_item[:count]
+        #if new_cart_item does not equal nil then we want to access new_cart_item and inside we want to access the count and increase by 1
+        new_cart_item[:counter] += 1
     #to ensure there is not an infinite loop 
      counter += 1
   end
