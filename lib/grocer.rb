@@ -43,7 +43,7 @@ def consolidate_cart(cart)
         #otherwise, item is nil. We would need to create our item. Inside the hash we need to construct the new item in the new cart
       else
         new_cart_item = {
-          
+          :item => cart[:counter][:item], :price => cart[:counter][:price], 
         }
         
     #to ensure there is not an infinite loop 
