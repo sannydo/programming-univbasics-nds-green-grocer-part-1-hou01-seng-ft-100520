@@ -54,6 +54,7 @@ def consolidate_cart(cart)
       end
     #to ensure there is not an infinite loop 
       counter += 1
+    end
   end
 end
 
