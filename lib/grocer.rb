@@ -53,7 +53,7 @@ def consolidate_cart(cart)
         new_cart << new_cart_item
       end
     #to ensure there is not an infinite loop 
-     counter += 1
+      counter += 1
   end
 end
 
