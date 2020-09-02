@@ -17,13 +17,14 @@ end
 #adds a count of one to each item when there are no duplicates
 #increments count when there are multiple items
 #takes in an array and returns an array that every unique item and no duplicates. If there are dupes then the count will increase.
-def consolidate_cart 
+def consolidate_cart(cart)
   #declare new array
   new_array = []
   #start with a counter so it begins at the first item
   counter = 0 
   #then create while loop
-  while counter < 
+  while counter < cart.length do 
+    
   
   end
 end
