@@ -42,6 +42,9 @@ def consolidate_cart(cart)
         
         #otherwise, item is nil. We would need to create our item. 
       else
+        new_cart_item = {
+          
+        }
         
     #to ensure there is not an infinite loop 
      counter += 1
