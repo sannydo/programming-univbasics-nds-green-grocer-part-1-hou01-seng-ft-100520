@@ -23,7 +23,7 @@ def consolidate_cart
   #start with a counter so it begins at the first item
   counter = 0 
   #then create while loop
-  while 
+  while (some condition)
   
   end
 end
