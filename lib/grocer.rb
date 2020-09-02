@@ -20,20 +20,20 @@ end
 def consolidate_cart(cart)
   
   #declare new array
-  new_array = []
+ new_array = []
   
   #start with a counter so it begins at the first item
-  counter = 0 
+ counter = 0 
   
   #then create while loop
-  while counter < cart.length do 
+ while counter < cart.length do 
     
     #take each item in the cart and see if it is already in the new cart
-    if cart[:item] = new_cart
+  if cart[:item] = new_cart
       
       #calling the find_item_by_name_in_collection to check if item is in the new cart. Second argument is the collection we want to search want to see if the item is in our new cart.
       #So this will return either the item found or if not found it will return nil
-      new_cart_item = find_item_by_name_in_collection(cart[:counter][:item], new_cart)
+    new_cart_item = find_item_by_name_in_collection(cart[:counter][:item], new_cart)
       #if item is already in cart, we just want to increase the count
       if new_cart_item != nil 
         
