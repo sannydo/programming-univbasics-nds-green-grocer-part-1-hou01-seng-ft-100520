@@ -15,7 +15,8 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 #adds a count of one to each item when there are no duplicates
-#
+#increments count when there are multiple items
+
 def consolidate_cart 
   
 end
