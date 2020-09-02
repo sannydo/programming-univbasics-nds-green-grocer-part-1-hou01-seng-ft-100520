@@ -47,7 +47,7 @@ def consolidate_cart(cart)
           :price => cart[:counter][:price],
           :clearance => cart[:counter][:clearance],
           #this is the first time count is being used, the old item did not have count
-          :count => 
+          :count => 1
         }
         
     #to ensure there is not an infinite loop 
