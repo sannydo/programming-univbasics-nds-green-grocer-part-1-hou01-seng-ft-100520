@@ -38,7 +38,7 @@ def consolidate_cart(cart)
       if new_cart_item != nil 
         
         #if new_cart_item does not equal nil then we want to access new_cart_item and inside we want to access the count and increase by 1
-        new_cart_item[:counter] += 1
+        new_cart_item[:count] += 1
         
         #otherwise, item is nil. We would need to create our item. Inside the hash we need to construct the new item in the new cart
       else
