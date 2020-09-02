@@ -16,7 +16,7 @@ end
 
 #adds a count of one to each item when there are no duplicates
 #increments count when there are multiple items
-
+#takes in an array and returns an array that every 
 def consolidate_cart 
   
 end
